@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <section className="text-white px-6 py-12 about-section" id="about">
+        <section className="text-white px-6 py-12 about-section scroll-mt-16" id="about">
             <div className="max-w-5xl mx-auto about-wrapper">
                 <h2 className="text-3xl md:text-4xl font-bold text-teal-400 mb-6 text-center">
                     About CSI-DMCE 2025
