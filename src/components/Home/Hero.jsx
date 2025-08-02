@@ -13,7 +13,7 @@ const Hero=()=>{
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-start">
                         <button className="bg-teal-400 text-slate-900 font-semibold px-6 py-3 rounded-xl hover:bg-teal-300 transition">
-                            Explore Projects
+                            <a href="#events">Explore Events</a>
                         </button>
                         <button className="border border-teal-400 text-teal-400 px-6 py-3 rounded-xl hover:bg-teal-400 hover:text-slate-900 transition">
                             Join Our Community
