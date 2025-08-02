@@ -11,7 +11,7 @@ const Navbar=()=>{
     const [mobileNav,setMobileNav]=useState(false);
 
     return (
-        <nav className="w-full  h-16 bg-slate-900 flex justify-between  mx-auto px-6 sticky top-0 z-10">
+        <nav className="w-full  h-16 bg-slate-900 flex justify-between  mx-auto px-6 sm:px-8 md:px-12 sticky top-0 z-10">
             <div className="navbar-wrapper bg-slate-900  flex justify-between  mx-auto  w-full max-w-5xl">
                 <div className="logo flex items-center justify-center">
                     <a href="#" className="flex items-center justify-center gap-2">

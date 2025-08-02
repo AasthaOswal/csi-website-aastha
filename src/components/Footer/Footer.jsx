@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
     return (
         <footer className="bg-slate-950 text-white py-8 ">
-            <div className="max-w-6xl mx-auto px-6 grid grid-cols-1  md:grid-cols-3 gap-10 border-t border-slate-800 pt-10">
+            <div className="max-w-6xl mx-auto px-6 sm:px-8 md:px-12 grid grid-cols-1  md:grid-cols-3 gap-10 border-t border-slate-800 pt-10">
                 {/* About CSI */}
                 <div className="md:justify-self-center">
                     <h3 className="text-teal-400 font-semibold text-lg mb-3">About CSI-DMCE</h3>

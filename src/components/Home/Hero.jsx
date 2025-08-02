@@ -1,7 +1,7 @@
 
 const Hero=()=>{
     return (
-        <section className="bg-slate-950 text-white flex items-center justify-center px-6 py-16 scroll-mt-16" id="hero">
+        <section className="bg-slate-950 text-white flex items-center justify-center px-6 sm:px-8 md:px-12 py-12 scroll-mt-16" id="hero">
             <div className="flex max-w-5xl flex-col-reverse  md:flex-row items-center justify-around gap-x-8">
                 <div className="text-center md:text-left mt-16 md:mt-0">
                     <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">
