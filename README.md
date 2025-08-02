@@ -1,4 +1,4 @@
-# CSI-DMCE 2024 Landing Page
+# CSI-DMCE 2025 Landing Page
 
 This repository contains the landing page created for the CSI-DMCE 2025 official committee. The page serves as a clean and informative front-facing site for CSI activities, events, and announcements.
 
