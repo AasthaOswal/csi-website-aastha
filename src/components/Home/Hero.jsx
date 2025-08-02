@@ -12,10 +12,10 @@ const Hero=()=>{
                     collaborative projects, hands-on learning, and tech-driven innovation.
                     </p>
                     <div className="flex flex-row flex-wrap md:flex-row gap-4 justify-center md:justify-start">
-                        <button className="bg-teal-400 text-slate-900 font-semibold px-6 py-3 rounded-xl hover:bg-teal-300 transition w-fit self-center">
+                        <button className="bg-teal-400 text-slate-900 font-semibold px-6 py-3 rounded-xl hover:bg-teal-300 active:bg-teal-300 active:scale-95 transition-all duration-200 ease w-fit self-center cursor-pointer">
                             <a href="#events">Explore Events</a>
                         </button>
-                        <button className="border border-teal-400 text-teal-400 px-6 py-3 rounded-xl hover:bg-teal-400 hover:text-slate-900 transition w-fit self-center">
+                        <button className="font-semibold border border-teal-400 text-teal-400 px-6 py-3 rounded-xl hover:bg-teal-400 hover:text-slate-900 active:scale-95 transition-all duration-200 ease w-fit self-center cursor-pointer">
                             Join Our Community
                         </button>
                     </div>

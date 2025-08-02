@@ -4,25 +4,25 @@ const Events = () => {
             title: "SIH Guide Event",
             description:
                 "An insightful session guiding students on how to participate in Smart India Hackathon.",
-            image: "/hero-image.png",
+            image: "/sih.jpg",
         },
         {
             title: "Code-a-thon",
             description:
                 "A 24-hour hackathon organized by CSI-DMCE to encourage innovation and teamwork.",
-            image: "/hero-image.png",
+            image: "/codethon.jpg",
         },
         {
             title: "Hacktoberfest",
             description:
                 "An open-source celebration with global contributions, hosted annually by CSI-DMCE.",
-            image: "/hero-image.png",
+            image: "/hacktober.jpg",
         },
         {
             title: "JS BootCamp",
             description:
                 "An amazing bootcamp to master the art of javascript, held by Tech Team Members.",
-            image: "/hero-image.png",
+            image: "/jsbootcamp.jpg",
         },
     ];
 
@@ -38,9 +38,9 @@ const Events = () => {
                     {events.map((event, idx) => (
                         <div
                             key={idx}
-                            className="bg-slate-800 rounded-2xl overflow-hidden shadow-xl border hover:border-teal-400 active:border-teal-400 transition-all duration-200 ease cursor-pointer">
-                            <img src={event.image} alt={event.title} className="w-full h-56 md:h-64 object-cover p-5"/>
-                            <div className="p-5">
+                            className="bg-slate-800 rounded-2xl overflow-hidden shadow-xl border hover:border-teal-400 active:border-teal-400 transition-all duration-200 ease cursor-pointer p-5">
+                            <img src={event.image} alt={event.title} className="w-full h-56 md:h-64 object-cover rounded-2xl"/>
+                            <div className="py-5">
                                 <h3 className="text-xl font-semibold text-teal-400 mb-2">
                                     {event.title}
                                 </h3>
