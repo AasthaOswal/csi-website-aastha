@@ -2,48 +2,48 @@ const About = () => {
     return (
         <section className="text-white px-6 sm:px-8 md:px-12 py-12 about-section scroll-mt-16" id="about">
             <div className="max-w-5xl mx-auto about-wrapper">
-                <h2 className="text-3xl md:text-4xl font-bold text-teal-400 mb-6 text-center">
+                <h2 className="text-3xl md:text-4xl font-bold text-violet-400 mb-6 text-center">
                     About CSI-DMCE 2025
                 </h2>
-                <p className="text-slate-300 text-lg leading-relaxed mb-8 text-center">
+                <p className="text-neutral-300 text-lg leading-relaxed mb-8 text-center">
                     The Computer Society of India CSI-DMCE Chapter under CATT 2025 is a
                     student-led initiative focused on building a culture of innovation and
                     collaboration. We aim to connect tech enthusiasts, coders, designers,
                     and thinkers at Datta Meghe College of Engineering.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12 mt-10">
-                    <div className="bg-slate-800 p-6 rounded-xl shadow-xl border border-transparent hover:border-teal-400 active:text-teal-400 cursor-pointer transition-all duration-200 ease">
-                        <h3 className="text-xl font-semibold text-teal-400 mb-2">
+                    <div className=" p-6 rounded-xl shadow-xl border-[1px] border-violet-400/50 active:text-violet-400 cursor-pointer transition-all duration-200 ease">
+                        <h3 className="text-xl font-semibold text-violet-400 mb-2">
                             🚀 Our Mission
                         </h3>
-                        <p className="text-slate-300">
+                        <p className="text-neutral-300">
                             To nurture future engineers through impactful tech events,
                             real-world projects, and knowledge-sharing sessions.
                         </p>
                     </div>
-                    <div className="bg-slate-800 p-6 rounded-xl shadow-xl border border-transparent hover:border-teal-400 active:text-teal-400 cursor-pointer transition-all duration-200 ease">
-                        <h3 className="text-xl font-semibold text-teal-400 mb-2">
+                    <div className=" p-6 rounded-xl shadow-xl border-[1px] border-violet-400/50 active:text-violet-400 cursor-pointer transition-all duration-200 ease">
+                        <h3 className="text-xl font-semibold text-violet-400 mb-2">
                             👨‍💻 Who We Are
                         </h3>
-                        <p className="text-slate-300">
+                        <p className="text-neutral-300">
                             A dedicated student committee promoting emerging tech fields like
                             AI, Web Dev, Cybersecurity, and IoT.
                         </p>
                     </div>
-                    <div className="bg-slate-800 p-6 rounded-xl shadow-xl border border-transparent hover:border-teal-400 active:text-teal-400 cursor-pointer transition-all duration-200 ease">
-                        <h3 className="text-xl font-semibold text-teal-400 mb-2">
+                    <div className=" p-6 rounded-xl shadow-xl border-[1px] border-violet-400/50 active:text-violet-400 cursor-pointer transition-all duration-200 ease">
+                        <h3 className="text-xl font-semibold text-violet-400 mb-2">
                             📚 What We Do
                         </h3>
-                        <p className="text-slate-300">
+                        <p className="text-neutral-300">
                             Organize workshops, launch collaborative projects, mentor juniors,
                             and foster a culture of open-source.
                         </p>
                     </div>
-                    <div className="bg-slate-800 p-6 rounded-xl shadow-xl border border-transparent hover:border-teal-400 active:text-teal-400 cursor-pointer transition-all duration-200 ease">
-                        <h3 className="text-xl font-semibold text-teal-400 mb-2">
+                    <div className=" p-6 rounded-xl shadow-xl border-[1px] border-violet-400/50 active:text-violet-400 cursor-pointer transition-all duration-200 ease">
+                        <h3 className="text-xl font-semibold text-violet-400 mb-2">
                             📍 Where to Find Us
                         </h3>
-                        <p className="text-slate-300">
+                        <p className="text-neutral-300">
                             Follow us on Instagram and LinkedIn for the latest updates,
                             events, and team announcements.
                         </p>

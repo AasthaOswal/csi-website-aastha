@@ -11,38 +11,38 @@ const Navbar=()=>{
     const [mobileNav,setMobileNav]=useState(false);
 
     return (
-        <nav className="w-full  h-16 bg-neutral-950 flex justify-between  mx-auto px-6 sm:px-8 md:px-12 sticky top-0 z-10">
-            <div className="navbar-wrapper bg-neutral-950 flex justify-between  mx-auto  w-full max-w-5xl">
+        <nav className="w-full  h-16 bg-neutral-900 shadow-lg shadow-violet-400/10 flex justify-between  mx-auto px-6 sm:px-8 md:px-12 sticky top-0 z-10">
+            <div className="navbar-wrapper bg-neutral-900 flex justify-between  mx-auto  w-full max-w-5xl">
                 <div className="logo flex items-center justify-center">
                     <a href="#" className="flex items-center justify-center gap-2">
                         <img src="/csi-logo.jpg" alt="logo" className="rounded-full h-10 w-10" />
-                        <p className="logo-text sm:text-xl text-white font-semibold">
+                        <p className="logo-text sm:text-xl text-neutral-300 hover:text-violet-400 font-semibold">
                             CSI-DMCE
                         </p>
                     </a>
                 </div>
                 <div className="nav-links hidden sm:flex  justify-center items-center">
-                    <ul className="flex items-center justify-center list-none gap-4 text-white ">
-                        <li className="hover:text-emerald-400"><a href="#about">About</a></li>
-                        <li className="hover:text-emerald-400"><a href="#events">Events</a></li>
+                    <ul className="flex items-center justify-center list-none gap-4 text-neutral-300 ">
+                        <li className="hover:text-violet-400"><a href="#about">About</a></li>
+                        <li className="hover:text-violet-400"><a href="#events">Events</a></li>
                         
-                        <li className="hover:text-emerald-400"><a href="#contact">Contact</a></li>
-                        <li className="hover:text-emerald-400"><a href="#">Signup</a></li>
+                        <li className="hover:text-violet-400"><a href="#contact">Contact</a></li>
+                        <li className="hover:text-violet-400"><a href="#">Signup</a></li>
                         
                     </ul>
                 </div>
-                <div className="sm:hidden self-center flex justify-center items-center p-2 h-fit w-fit  hover:bg-slate-800 text-white hover:text-teal-400 hover:rounded-full transition-all duration-200 ease" onClick={()=>setMobileNav((prev)=>!prev)}> 
+                <div className="sm:hidden self-center flex justify-center items-center p-2 h-fit w-fit  hover:bg-slate-800 text-neutral-300 hover:text-violet-500 hover:rounded-full transition-all duration-200 ease" onClick={()=>setMobileNav((prev)=>!prev)}> 
                     {mobileNav===true ? <RxCross2 className="text-2xl  "/> : <IoMenu className="text-2xl  "/>}
                 </div>
             </div>
             {mobileNav===true && <motion.div className="w-full h-[calc(100dvh-56px)] flex flex-col justify-center gap-4 items-center sm:hidden fixed left-0 top-16 bg-slate-900" initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.4 }}>
                     
-                <ul className="flex flex-col items-center justify-center list-none gap-4 text-white">
-                    <li className="hover:text-emerald-400" onClick={()=>setMobileNav((prev)=>!prev)}><a href="#about">About</a></li>
-                    <li className="hover:text-emerald-400" onClick={()=>setMobileNav((prev)=>!prev)}><a href="#events">Events</a></li>
+                <ul className="flex flex-col items-center justify-center list-none gap-4 text-neutral-300">
+                    <li className="hover:text-violet-400" onClick={()=>setMobileNav((prev)=>!prev)}><a href="#about">About</a></li>
+                    <li className="hover:text-violet-400" onClick={()=>setMobileNav((prev)=>!prev)}><a href="#events">Events</a></li>
                     
-                    <li className="hover:text-emerald-400" onClick={()=>setMobileNav((prev)=>!prev)}><a href="#contact">Contact</a></li>
-                    <li className="hover:text-emerald-400" onClick={()=>setMobileNav((prev)=>!prev)}><a href="#">Signup</a></li>
+                    <li className="hover:text-violet-400" onClick={()=>setMobileNav((prev)=>!prev)}><a href="#contact">Contact</a></li>
+                    <li className="hover:text-violet-400" onClick={()=>setMobileNav((prev)=>!prev)}><a href="#">Signup</a></li>
                         
                 </ul>
             </motion.div>}
