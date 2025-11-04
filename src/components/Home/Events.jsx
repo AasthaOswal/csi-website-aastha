@@ -27,7 +27,7 @@ const Events = () => {
     ];
 
     return (
-        <section className="bg-slate-950 px-6 sm:px-8 md:px-12 py-12  scroll-mt-16" id="events">
+        <section className="px-6 sm:px-8 md:px-12 py-12  scroll-mt-16" id="events">
           
             <div className="max-w-5xl mx-auto about-wrapper">
                 <h2 className="text-3xl sm:text-4xl font-bold text-teal-400 text-center mb-10">

@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className="bg-slate-950 text-white py-8 ">
+        <footer className="bg-neutral-900 text-white py-8 ">
             <div className="max-w-6xl mx-auto px-6 sm:px-8 md:px-12 grid grid-cols-1  md:grid-cols-3 gap-10 border-t border-slate-800 pt-10">
                 {/* About CSI */}
                 <div className="md:justify-self-center">

@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
     return (
-        <section className="bg-slate-950 text-white px-6 sm:px-8 md:px-12 py-12 scroll-mt-16" id="contact">
+        <section className=" text-white px-6 sm:px-8 md:px-12 py-12 scroll-mt-16" id="contact">
             <div className="max-w-5xl mx-auto">
                 <h2 className="text-4xl font-bold text-teal-400 text-center mb-4">
                     Contact Us
@@ -20,7 +20,7 @@ const Contact = () => {
                     {/* Social & Email */}
                     <div className="mt-16 grid grid-cols-1 gap-10 flex-grow">
                         <div className="bg-slate-800 p-6 rounded-xl shadow-md border border-slate-700 hover:border-teal-400 transition duration-200">
-                            <h3 className="text-2xl font-semibold text-teal-400 mb-3">📧 Email Us</h3>
+                            <h3 className="text-2xl font-semibold text-teal-400 mb-3">Email Us</h3>
                             <p className="text-slate-300 leading-relaxed">
                                 For queries and suggestions, write to us at:
                                 <br />
@@ -28,7 +28,7 @@ const Contact = () => {
                             </p>
                         </div>
                         <div className="bg-slate-800 p-6 rounded-xl shadow-md border border-slate-700 hover:border-teal-400 transition duration-200">
-                            <h3 className="text-2xl font-semibold text-teal-400 mb-4">📱 Follow Us</h3>
+                            <h3 className="text-2xl font-semibold text-teal-400 mb-4">Follow Us</h3>
                             <div className="flex items-center space-x-6 text-2xl">
                                 <a href="https://www.linkedin.com/company/csi-dmce" target="_blank" rel="noopener noreferrer" className="text-white hover:text-teal-300 transition">
                                     <FaLinkedin />
